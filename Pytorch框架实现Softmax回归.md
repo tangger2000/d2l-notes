@@ -32,14 +32,10 @@ net.apply(init_weights)
 ```
 
 
-
-
     Sequential(
       (0): Flatten(start_dim=1, end_dim=-1)
       (1): Linear(in_features=784, out_features=10, bias=True)
     )
-
-
 
 ## 交叉熵损失函数
 
@@ -65,7 +61,6 @@ d2l.train_ch3(net, train_iter, test_iter, loss, num_epochs, trainer)
 ```
 
 
-    
-![svg](Pytorch%E6%A1%86%E6%9E%B6%E5%AE%9E%E7%8E%B0Softmax%E5%9B%9E%E5%BD%92_files/Pytorch%E6%A1%86%E6%9E%B6%E5%AE%9E%E7%8E%B0Softmax%E5%9B%9E%E5%BD%92_9_0.svg)
+![svg](https://cdn.jsdelivr.net/gh/tangger2000/PicHost/img/20220105234604.svg)
     
 
